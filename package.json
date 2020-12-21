@@ -1,0 +1,39 @@
+{
+  "name": "cianet_challenge",
+  "version": "1.0.0",
+  "description": "Desafio Dev Front End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "assemble-react-bulma": "^1.0.3",
+    "axios": "^0.21.0",
+    "bulma": "^0.9.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "google-maps-react": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "author": "Thiago Miklan Moreira",
+  "license": "ISC"
+}
